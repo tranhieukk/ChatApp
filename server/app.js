@@ -127,7 +127,7 @@ io.sockets.on('connection',function(socket){
 		});//Lay du lieu tin nhan
 
 		 //Lay du lieu tin nhan moi
-		socket.on('client_xin_thong_tin_tin_nhan_voi_friend',function(data){
+		socket.on('client_xin_thong_tin_tin_nhanmoi_voi_friend',function(data){
 			data = JSON.parse(data);
 			console.log(data.username);
 			console.log(data.friend);
@@ -139,6 +139,30 @@ io.sockets.on('connection',function(socket){
 		});//Lay du lieu tin nhan moi
 
 
+		//client gui tin nhan cho friend
+		socket.on('client_gui_tin_nhan_cho_friend',function(data){
+				data = JSON.parse(data);
+				console.log(data.username);
+				console.log(data.friend);
+				console.log(data.content);
+
+				var query ="INSERT INTO `messages`(`from`, `to`, `content`) VALUES ('"+data.username+"','"+data.friend+"','"+data.content+"')";
+				 console.log(query);
+			     con.query(query, function (err, result, fields) {
+		   		 if (err) throw err;
+		   		
+				var query ="SELECT * FROM `messages`  WHERE (messages.to='"+data.username+"' or messages.to='"+data.friend+"') and  (messages.from='"+data.username+"' or messages.from='"+data.friend+"') ";
+				 console.log(query);
+			     con.query(query, function (err, result, fields) {
+		   		 if (err) throw err;
+		   		 console.log(result);	   		
+		   		 socket.emit('server_return_listmesage', {listmesage: result});
+				});
+
+
+		   	
+				});
+		});
 
 
 
@@ -147,23 +171,5 @@ io.sockets.on('connection',function(socket){
 		
 		
 			
-
-	
-
-		
-
-		
-			
-
-		
-		 
-		    
-		    
-		    
-		    
-		 	
-		    //Tim kiem ban be
-
-		    //Gui loi moi ket ban
 
 		   
