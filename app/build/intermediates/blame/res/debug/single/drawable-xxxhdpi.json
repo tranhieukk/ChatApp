@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_facebook.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_facebook.png"
+    },
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_rating_full.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_rating_full.png"
+    },
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_twitter.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_twitter.png"
+    },
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_rating_empty.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_rating_empty.png"
+    },
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_preparation.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_preparation.png"
+    },
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_done.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_done.png"
+    },
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_shoppinglist.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_shoppinglist.png"
+    },
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_instgram.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_instgram.png"
+    },
+    {
+        "merged": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_google.png",
+        "source": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_google.png"
+    }
+]

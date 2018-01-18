@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "H:\\Android\\AndroidChatApp\\Cook-It-Android-XML-Template-master\\Cook-It-Android-XML-Template-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\Tran Trung Hieu\\.android\\build-cache\\bc53ef826553931cca7ba38dca5de7e14113b2fd\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            }
+        ]
+    }
+]
