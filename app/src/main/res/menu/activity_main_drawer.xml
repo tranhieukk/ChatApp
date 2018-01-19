@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nofications"
+            android:title="THÔNG BÁO" />
+        <item
+            android:id="@+id/postSTT"
+            android:title="VIẾT BÀI" />
+        <item
+            android:id="@+id/messages"
+            android:title="NHẮN TIN" />
+        <item
+            android:id="@+id/friends"
+            android:title="BẠN BÈ" />
+        <item
+            android:id="@+id/account"
+            android:title="TÀI KHOẢN" />
+        <item
+            android:id="@+id/setting"
+            android:title="THIẾT LẬP" />
+    </group>
+</menu>

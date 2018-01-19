@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/space16"
+    android:layout_marginBottom="20dp"
+    android:background="@color/cardview_light_background">
+    <TextView
+        android:id="@+id/tv_recipe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space8"
+        android:text="RECIPES"
+        android:textSize="@dimen/h3"
+        android:textColor="@color/colorTextDark"
+        android:layout_gravity="left"
+        android:gravity="center_horizontal"
+        style="@style/SemiBold"/>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space8"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_time"
+        android:drawablePadding="@dimen/space8"
+        android:text="1h 20'"
+        android:layout_gravity="left"
+        style="@style/Text14Grey"/>
+    <ImageView
+        android:id="@+id/iv_post"
+        android:layout_width="wrap_content"
+        android:maxHeight="500dp"
+        android:maxWidth="500dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg"
+        android:layout_below="@id/tv_time"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/colorPink"/>
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space8"
+            android:drawableLeft="@drawable/ic_favorite"
+            android:drawablePadding="@dimen/space8"
+            android:gravity="center_vertical"
+            android:text="968"
+            style="@style/Text14Grey"
+            android:layout_marginLeft="@dimen/space24"/>
+        <TextView
+            android:id="@+id/tv_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space8"
+            android:drawableLeft="@drawable/ic_comments"
+            android:drawablePadding="@dimen/space8"
+            android:gravity="center_vertical"
+            android:text="100"
+            style="@style/Text14Grey"
+            android:layout_marginLeft="@dimen/space24"/>
+    </LinearLayout>
+</LinearLayout>
